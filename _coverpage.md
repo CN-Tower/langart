@@ -1,4 +1,4 @@
-![logo](images/mall.svg)
+![logo](images/langart.png)
 
 # Lang Art
 
