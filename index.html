@@ -12,10 +12,32 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: 'Lang Art',
+      repo: 'https://github.com/CN-Tower/langart',
+      loadNavbar: true,
+      loadSidebar: true,
+      coverpage: true,
+      auto2top: true,
+      maxLevel: 2,
+      subMaxLevel: 4,
+      search: {
+        placeholder: '搜索',
+        noData: '找不到结果!',
+        depth: 3
+      },
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',//防止意外回退
+        '/.*/_navbar.md': '/_navbar.md'
+      },
+      ga: 'UA-149829962-1'
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/ga.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-sql.js"></script>
 </body>
 </html>

@@ -1,2 +1,2 @@
-# lang-art
+# Lang Art
 
