@@ -4,7 +4,9 @@
   "description": "> 人人都是艺术家，对文艺的爱好是人的本能，在这里，让你体验语言艺术之美！",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run dev",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/CN-Tower/langart/issues"
   },
-  "homepage": "https://github.com/CN-Tower/langart#readme"
+  "homepage": "https://github.com/CN-Tower/langart#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
 }
