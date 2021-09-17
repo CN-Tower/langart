@@ -4,7 +4,7 @@
       <li class="btn-item"><router-link class="router-link" to="/成语俗话/中华名言.html">成语俗语</router-link></li>
       <li class="btn-item"><router-link class="router-link" to="/文摘语录/楹联巧对.html">文摘语录</router-link></li>
       <li class="btn-item"><router-link class="router-link" to="/诗词歌赋/企业家宣言.html">诗词歌赋</router-link></li>
-      <li class="btn-item"><router-link class="router-link" to="/个人作品/论学习.html">个人作品</router-link></li>
+      <li class="btn-item"><router-link class="router-link" to="/兴趣作品/论学习.html">兴趣作品</router-link></li>
     </ul>
   </div>
 </template>
